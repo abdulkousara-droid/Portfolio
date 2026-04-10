@@ -1,0 +1,67 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2.4rem;
+}
+@media (max-width: 900px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutText {
+  margin-bottom: 2.4rem;
+  font-weight: 200;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.linksText {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: var(--text-sm);
+  color: var(--brand);
+}
+
+.highlightFirstLetter:first-letter {
+  background: var(--background-light);
+  border-radius: 0.4rem;
+  font-size: var(--text-sm);
+  font-weight: bold;
+  margin-right: 0.2rem;
+  float: left;
+}
+
+.name {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  margin: 2rem;
+  z-index: 10;
+  position: relative;
+  margin-right: 9rem;
+  border-radius: 50%;
+  outline: solid;
+  outline-width: 3px;
+  outline-color: var(--brand);
+  outline-offset: 6px;
+  transition: 0.4s;
+  width: 250px;
+  height: 250px;
+}
+.profile:hover {
+  outline: dotted;
+  outline-color: var(--brand);
+  outline-offset: 10px;
+  transform: scale(105%);
+}
+
+/*# sourceMappingURL=About.module.css.map */
