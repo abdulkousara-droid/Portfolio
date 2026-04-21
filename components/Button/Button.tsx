@@ -5,6 +5,7 @@ interface Props {
   children: string | JSX.Element;
   onClick?: MouseEventHandler<HTMLButtonElement>;
   className: string
+  type?: "button" | "submit" | "reset";
 }
 
 export const BUTTON_TYPE_CLASSES = {
@@ -12,9 +13,10 @@ export const BUTTON_TYPE_CLASSES = {
   StandardButton: 'StandardButton',
 };
 
-export const Button = ({ children, onClick, className}: Props) => {
+export const Button = ({ ...props }: Props) => {
+  const { children, onClick, className, type } = props;
   return (
-    <button onClick={onClick} className={`${styles[className]}`}>
+    <button onClick={onClick} className={`${styles[className]}`} type={type}>
       {children}
     </button>
   );

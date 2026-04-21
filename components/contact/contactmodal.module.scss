@@ -1,0 +1,97 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000000;
+
+  height: 100vh;
+  padding: 4.8rem 1.2rem;
+  background: var(--bg-opaque);
+  backdrop-filter: blur(12px);
+
+  overflow-y: scroll;
+
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.modalCard {
+  width: 100%;
+  max-width: 700px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  border-radius: 1.2rem;
+  overflow: hidden;
+
+  background: var(--background-light);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+  cursor: auto;
+  padding: 2.4rem;
+}
+
+.form {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Grouping labels and inputs */
+.form div {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+  text-transform: capitalize;
+}
+
+/* Input and Textarea styling */
+.input, .textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.input:focus, .textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.textarea {
+  resize: vertical; /* Allows user to resize height but not width */
+  min-height: 120px;
+}
+
+
+.closeModalBtn {
+  background: none;
+  border: none;
+
+  color: var(--text);
+
+  font-size: var(--text-md);
+
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+
+  cursor: pointer;
+}
