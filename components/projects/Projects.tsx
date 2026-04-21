@@ -63,9 +63,9 @@ const projects = [
   {
     title: "CRWN Clothing",
     imgSrc: "/project-imgs/crwn-clothing.png",
-    code: "https://www.github.com/AbdKousara/crwn-clothing-v2",
+    code: "https://github.com/abdulkousara-droid/Crwn_Clothing_v2.git",
     projectLink:
-      "https://crwn-clothing-v2-pi.vercel.app/",
+      "https://zippy-sfogliatella-66a222.netlify.app/",
     tech: ["React", "Redux", "Styled Components", "Firebase"],
     description:
       "React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items.",
@@ -90,6 +90,9 @@ const projects = [
             React
           - React Router
           - ContextApi
+          - UseReducer
+          - Redux-saga
+          - Redux-thunk
           - Advanced Hooks
           - Redux
           - Typescript
@@ -105,8 +108,8 @@ const projects = [
   {
     title: "Natours Landing Page",
     imgSrc: "/project-imgs/natours.png",
-    code: "https://github.com/AbdKousara/TravelAgencyWebsite",
-    projectLink: "https://abdkousara.github.io/TravelAgencyWebsite/",
+    code: "https://abdulkousara-droid.github.io/TravelAgencyWebsite/",
+    projectLink: "https://github.com/abdulkousara-droid/TravelAgencyWebsite.git",
     tech: ["HTML", "SCSS", "Animation"],
     description:
       "Landing Page For Travel Agency",
