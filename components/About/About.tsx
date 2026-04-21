@@ -13,9 +13,9 @@ export const About = () => {
                 <div>
                     <Reveal>
                         <><div className={`${styles.name} ${styles.aboutText}`}>
-                            <div className={styles.highlightFirstLetter}>Hello! 🤠 I&apos;m</div>
-                            <div className={styles.highlightFirstLetter}>AbdulKader</div>
-                            <div className={styles.highlightFirstLetter}>Kousara.</div>
+                            <div className={styles.highlightFirstLetter}>Hello! I&apos;m AbdulKader Kousara.</div>
+                            {/* <div className={styles.highlightFirstLetter}>AbdulKader</div>
+                            <div className={styles.highlightFirstLetter}>Kousara.</div> */}
                         </div>
                         <p className={styles.aboutText}>
                             highly motivated and passionate software developer.
