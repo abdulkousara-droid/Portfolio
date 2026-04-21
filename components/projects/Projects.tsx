@@ -108,8 +108,8 @@ const projects = [
   {
     title: "Natours Landing Page",
     imgSrc: "/project-imgs/natours.png",
-    code: "https://abdulkousara-droid.github.io/TravelAgencyWebsite/",
-    projectLink: "https://github.com/abdulkousara-droid/TravelAgencyWebsite.git",
+    code: "https://github.com/abdulkousara-droid/TravelAgencyWebsite.git",
+    projectLink: "https://abdulkousara-droid.github.io/TravelAgencyWebsite/",
     tech: ["HTML", "SCSS", "Animation"],
     description:
       "Landing Page For Travel Agency",
