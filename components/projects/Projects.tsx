@@ -132,7 +132,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          This is self project that i have made with React and Tailwind, Expressjs for backend and NeonAuth for SignIN and SignUP Authentication, Prisma and PostgreSQL for Database and it's hosted on Neon, 
+          This is self project that i have made with React and Tailwind, Expressjs for backend and NeonAuth for SignIN and SignUP Authentication, Prisma and PostgreSQL for Database and its hosted on Neon, 
           Openrouter api for the Ai model, backend deployed on Render and Frontend deployed on Vercel.
         </p>
       </>
