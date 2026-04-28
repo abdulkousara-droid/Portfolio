@@ -65,7 +65,7 @@ const projects = [
     imgSrc: "/project-imgs/crwn-clothing.png",
     code: "https://github.com/abdulkousara-droid/Crwn_Clothing_v2.git",
     projectLink:
-      "https://zippy-sfogliatella-66a222.netlify.app/",
+      "https://crwn-clothing-ecommerc.netlify.app/",
     tech: ["React", "Redux", "Styled Components", "Firebase"],
     description:
       "React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items.",
@@ -95,9 +95,12 @@ const projects = [
           - Redux-thunk
           - Advanced Hooks
           - Redux
+          - Redux Persist
+          - Redux Toolkit
+          - Redux Reselect
           - Typescript
           - Firebase
-          - Stripe
+          - Stripe/Serverless functions
           - SCSS
           - Styled-Components
           - Node.js
